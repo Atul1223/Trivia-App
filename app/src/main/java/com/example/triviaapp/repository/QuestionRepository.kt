@@ -28,7 +28,7 @@ class QuestionRepository @Inject constructor(
             dataOrException.e = exception
             Log.d("Exception","getAllQuestions(): ${dataOrException.e!!.localizedMessage}")
         }
-        
+
         return dataOrException
     }
 
